@@ -379,13 +379,13 @@ function gameOver() {
 			
 			ctx.font = "34px Arial";
 			ctx.fillStyle = "Red";
-			ctx.fillText("Sorry, the bridge was too short!", 110, 200);
+			ctx.fillText("Sorry, your bridge was too short!", 40, 200);
 			
 		} else {
 			
 			ctx.font = "34px Arial";
 			ctx.fillStyle = "Red";
-			ctx.fillText("Sorry, the bridge was too long!", 120, 200);
+			ctx.fillText("Sorry, your bridge was too long!", 50, 200);
 			
 		}
 		
